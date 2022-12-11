@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HW LAB 2.5: Forms & ASP</title>
+  <link rel="stylesheet" href="buy.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <span class="logo">
+        <img src="images/logo.png" alt="" />
+        <h5>Master Card</h5>
+      </span>
+      <img src="images/chip.png" alt="" class="chip" />
+    </header>
+
+    <div class="card-details">
+      <form action="http://inholyland.net/_homeworks/hw2.5/params.asp" method="post">
+        <div class="name-number">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name"></label><br>
+          <label>Card Number</label>
+          <input type="text" id="card" name="card">
+        </div>
+        <div class="valid-date">
+          <h6>Valid Thru</h6>
+          <h5>02/28</h5>
+          <input type="submit">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
